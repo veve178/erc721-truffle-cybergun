@@ -15,7 +15,7 @@ contract CyberGun is ERC721Enumerable, Ownable {
 
     // set contract name and ticker. 
     constructor() ERC721("CyberGun", "CG") {
-        _baseTokenURI = "ipfs://QmZxPBEzPcJcXLGe4Qqx9K2KYKVgxbJvJSjxq5Aq3eRLvu";
+        _baseTokenURI = "ipfs://QmZxPBEzPcJcXLGe4Qqx9K2KYKVgxbJvJSjxq5Aq3eRLvu/";
     }
 
     function _beforeTokenTransfer(address from, address to, uint256 tokenId)
